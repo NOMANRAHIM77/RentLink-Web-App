@@ -1,0 +1,783 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100vh;
+  width: 100vw;
+}
+#main{
+  width: 100%;
+  height: 100%;
+background-image: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.637)), url('/images/owner-background.jpg');
+background-size: cover;             
+}
+
+#top{
+  width: 100%;
+  height: 10%;
+  background-color: rgba(0, 0, 0, 0.349);
+gap: 60vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Quicksand;
+}
+#right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+}
+#owner-img{
+width: 55px;
+  height: 55px;
+  border-radius: 60px;
+  overflow: hidden;
+}
+#owner-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+
+}
+#right p{
+  font-size: 1.5vw;
+  color: white;
+}
+#logo{
+  width: 40px;
+  height: 40px;
+}
+#logo img{
+  width: 100%;
+  height: 100%;
+}
+#company{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+}
+#n{
+font-size: 1.5vw;
+letter-spacing: 5px;
+color: white;
+}
+#logout{
+width: 6vw;
+height: 3vw;
+font-size: 1.1vw;
+background-color: rgb(90, 90, 230);
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: all ease-in-out 0.2s;
+}
+#logout:hover{
+  background-color: rgba(80, 100, 156, 0.74);
+}
+
+#bottom{
+  width: 100%;
+  height: 90%;
+  display: flex;
+  
+}
+#tab{
+height: 90%;
+width: 45%;
+background-color: rgba(61, 57, 57, 0.589);
+border-radius: 40px;
+display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4vw;
+}
+#panel{
+  height: 100%;
+  width: 13%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+#screen{
+  height: 100%;
+  width: 87%;
+ display: flex;
+  justify-content: center;
+align-items: center;
+  flex-direction: column;
+  
+}
+
+#show{
+  width: 90%;
+  height: 80%;
+  background-color: rgba(0, 0, 0, 0.712);
+  color: white;
+  font-family: Raleway;
+  
+}
+#show-name{
+  background-color: white;
+  width: 20vw;
+  height: 6vh;
+  color: black;
+  display: flex;
+  justify-content: center;
+align-items: center;
+
+letter-spacing: 3px;
+}
+
+#first{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+align-items: center;
+
+color: black;
+gap: 4vw;
+}
+#rooms{
+  width: 20vw;
+  height: 13vw;
+  background-color: rgb(115, 247, 126);
+  border-radius: 20px;
+  display: flex;
+
+flex-direction: column;
+overflow: hidden;
+}
+#r-heading{
+ display: flex;
+ height: 14vh;
+ justify-content: center;
+align-items: center;
+width: 87%;
+font-size: 2vw;
+font-weight: 800;
+
+}
+#r-number{
+ display: flex;
+ height: 20vh;
+ justify-content: center;
+width: 50%;
+font-size: 6vw;
+font-weight: 800;
+}
+#rents{
+  width: 20vw;
+  height: 13vw;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  display: flex;
+
+flex-direction: column;
+overflow: hidden;
+}
+#e-heading{
+ display: flex;
+ height: 14vh;
+ justify-content: center;
+align-items: center;
+width: 87%;
+font-size: 2vw;
+font-weight: 800;
+
+}
+#e-number{
+ display: flex;
+ height: 20vh;
+ justify-content: center;
+width: 50%;
+font-size: 6vw;
+font-weight: 800;
+}
+#addmembers{
+   width: 30vw;
+  height: 15vw;
+  border-radius: 20px;
+  display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+overflow: hidden;
+
+transition: all ease-in-out 0.3s;
+background-color: rgb(250, 250, 10);
+}
+#m-heading{
+ display: flex;
+ height: 14vh;
+ justify-content: center;
+align-items: center;
+width: 87%;
+font-size: 3vw;
+font-weight: 800;
+
+}
+#m-number{
+ display: flex;
+ height: 9vh;
+ align-items: center;
+ justify-content: center;
+ border-radius: 40px;
+width:8vw;
+font-size: 30PX;
+font-weight: 800;
+background-color: rgb(43, 97, 212);
+position: relative;
+left: 50px;
+cursor: pointer;
+}
+#m-number:hover{
+  background-color: rgb(21, 66, 126);
+}
+#minus{
+  background-color: red;
+}
+#plus{
+  background-color: rgb(54, 54, 228);
+}
+#revenue{
+  width: 20vw;
+  height: 13vw;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  display: flex;
+
+flex-direction: column;
+overflow: hidden;
+}
+#v-heading{
+ display: flex;
+ height: 14vh;
+ justify-content: center;
+align-items: center;
+width: 80%;
+font-size: 2vw;
+font-weight: 800;
+
+}
+#v-number{
+ display: flex;
+ height: 20vh;
+ justify-content: center;
+width: 90%;
+font-size: 5vw;
+font-weight: 800;
+}
+
+#rents{
+   width: 20vw;
+  height: 13vw;
+  background-color: rgb(245, 182, 182);
+  border-radius: 20px;
+}
+#revenue{
+   width: 20vw;
+  height: 13vw;
+  background-color: rgb(163, 252, 255);
+  border-radius: 20px;
+}
+#announce{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#announce button{
+  width: 5vw;
+height: 2vw;
+font-size: 1.1vw;
+background-color: rgb(90, 90, 230);
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: all ease-in-out 0.2s;
+position: relative;
+left: 24vw;
+}
+#announce button:hover{
+  background-color: blue;
+}
+#notice{
+  width: 30vw;
+  height: 13vw;
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+  color: black;
+  padding: 15px;
+  font-size: 1.5vw;
+  resize: none;
+  overflow-y: auto;
+}
+#second{
+    width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+align-items: center;
+
+color: black;
+gap: 4vw;
+}
+#memberData{
+  width: 100%;
+  height: 100%;
+ gap: 30px;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  flex-direction: column;
+  overflow-y: auto;
+}
+.member-bar{
+  width: 90%;
+  height: 22vh;
+  background-color: rgba(25, 182, 255, 0.692);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 20px;
+ 
+}
+.member-info{
+  font-size: 1.5vw;
+  gap: 30px;
+  display: flex;
+  flex-direction: row;
+}
+#pic{
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+#pic img{
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+#newMemberForm{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(37, 37, 46);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+#newMemberForm button{
+  width: 5vw;
+height: 2vw;
+font-size: 1.1vw;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: all ease-in-out 0.2s;
+position: relative;
+left: 6vw;
+}
+#newMemberForm label{
+  color: white;
+}
+#newMemberForm div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.3vw;
+}
+#memName{
+width: 12vw;
+height: 5vh;
+}
+#memFlat{
+width: 12vw;
+height: 5vh;
+}
+#added{
+  font-size: 1.5vw;
+  font-weight: 800;
+  background-color: yellow;
+  color: black;
+  width: 20vw;
+  height: 8vh;
+}
+#homesview{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.houses{
+width: 70px;
+height: 70px;
+background-color: crimson;
+display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.remove{
+ align-content: center;
+ text-align: center;
+width: 5vw;
+height: 2.2vw;
+font-size: 1.1vw;
+background-color: rgb(240, 19, 19);
+color: white;
+border: none;
+border-radius: 13px;
+cursor: pointer;
+transition: all ease-in-out 0.2s;
+}
+.remove:hover{
+  background-color: rgba(255, 0, 0, 0.671);
+}
+#complainview{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}
+#memcomplain{
+  margin-top: 15px;
+  width: 90%;
+  height: 200px;
+  display: flex;
+ flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(80, 80, 241);
+}
+#actualComplain{
+  width: 100%;
+  height: 60%;
+  padding: 10px;
+
+}
+#complainOptions{
+  width: 90%;
+  height: 40%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  
+}
+.complainResolved{
+width: 5vw;
+height: 2.7vw;
+font-size: 1.1vw;
+background-color: rgb(247, 218, 55);
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: all ease-in-out 0.2s;
+}
+.complainResolved:hover{
+  background-color: rgb(178, 180, 66);
+}
+#flatValue{
+  width: 100%;
+  height: 100%;
+  font-size: 3vw;
+}
+#noComplains{
+  font-size: 8vw;
+  color: white;
+  font-family: Quicksand;
+
+}
+
+@media (min-width: 300px) and (max-width: 500px){
+
+html,body{
+  height:99vh;
+  width: 100vw;
+}
+
+
+#top{
+  width: 100%;
+  height: 8%;
+gap: 12vw;
+}
+#logo{
+  width: 12vw;
+  height: 6vh;
+}
+#n{
+  font-size: 3vw;
+  letter-spacing: 3px;
+}
+#company{
+  gap: 13px;
+}
+
+#right{
+  gap: 5vw;
+}
+#right p{
+  font-size: 4.5vw;
+}
+#owner-img{
+width: 11vw;
+height: 5.2vh;
+border-radius: 200px;
+}
+#logout{
+  width: 15vw;
+  height: 3.8vh;
+  font-size: 3.5vw;
+}
+#show-name{
+  font-size: 3.5vw;
+  width: auto;
+  padding: 10px;
+  height: 4vh;
+}
+
+#panel{
+  height: 90%;
+  width: 40%;
+}
+#tab{
+   gap: 15vw;
+}
+#screen{
+  height: 90%;
+  width: 100vw;
+}
+
+#first{
+  width: 100%;
+  height: 50%;
+gap: 2vw;
+flex-wrap: wrap;
+}
+
+#rooms{
+  width: 40vw;
+  height: 20vh;
+}
+#r-heading{
+ height: 14vh;
+width: 100%;
+font-size: 4vw;
+}
+#r-number{
+font-size: 15vw;
+width: 100%;
+}
+
+#rents{
+  width: 40vw;
+  height: 20vh;
+}
+
+#e-heading{
+ height: 14vh;
+width: 100%;
+font-size: 4vw;
+
+}
+#e-number{
+font-size: 15vw;
+width: 100%
+}
+#revenue{
+  width: 75vw;
+  height: 14vh;
+}
+#v-heading{
+ height: 14vh;
+width: 100%;
+font-size: 5vw;
+
+}
+#v-number{
+font-size: 13vw;
+width: 100%
+}
+
+
+
+#announce{
+  gap: 6px;
+  height: 36vh;
+  width: 45vw;
+}
+#announce button{
+  width: 40vw;
+height: 4vh;
+font-size: 4.5vw;
+left: 3.2vw;
+}
+#notice{
+  width: 100%;
+  height: 100%;
+  font-size: 4vw;
+}
+#second{
+  gap: 2px;
+}
+
+#addmembers{
+   width: 30vw;
+  height: 25vh;
+  border-radius: 20px;
+}
+
+#m-heading{
+ height: 5vh;
+width: 100%;
+font-size: 5vw;
+}
+#m-number{
+ height: 5vh;
+ border-radius: 10px;
+width:40vw;
+font-size: 4vw;
+left: 1px;
+color: white;
+}
+#bottom{
+  flex-direction: column;
+  flex-flow: column-reverse;
+  height: 90%;
+}
+#screen{
+  height: 90vh;
+}
+#show{
+  height: 77vh;
+  width: 97vw;
+}
+#tab{
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+#panel{
+width: 100%;
+height: 14vw;
+}
+#addmembers{
+   width: 44vw;
+  height: 37vh;
+  border-radius: 20px;
+}
+#added{
+  font-size: 5vw;
+}
+#labelName{
+  font-size: 5vw;
+}
+#nameentry,#flatentry{
+  display: flex;
+  flex-direction: column;
+}
+#memName,#memFlat{
+  width: 40vw;
+}
+#memRent{
+  color: white;
+}
+#newMemberForm{
+  color: white;
+}
+#addbuttons{
+  width: 44vw;
+  padding: 0;
+  display: flex;
+  
+}
+#addbuttons button{
+  width: 20vw;
+  height: 4vh;
+  left: 0;
+  font-size: 4vw;
+}
+
+.member-bar{
+  width: 190vw;
+  height: 10vh;
+  gap: 7px;
+}
+#member-info{
+  gap: 5px;
+  
+}
+#memberData{
+  gap: 20px;
+  overflow: auto;
+  justify-content: start;
+  align-items: start;
+}
+.member-bar:hover{
+background-color: rgba(255, 255, 0, 0.534);
+}
+.member-bar p{
+ font-size: 4vw;
+}
+#pic{
+  width: 40px;
+  height: 40px;
+  border-radius: 60px;
+  overflow: hidden;
+}
+.remove{
+  width: 20vw;
+  height: 4vh;
+}
+#homesview{
+padding: 10px;
+  overflow: auto;
+}
+.houses{
+  width: 20vw;
+  height: 10vh;
+}
+#memcomplain{
+  height: auto;
+}
+#memcomplain:hover{
+  background-color: rgba(255, 0, 0, 0.356);
+}
+.complainResolved{
+  width: 18vw;
+  height: 4vh;
+  font-size: 4vw;
+}
+#complainview{
+  overflow: auto;
+}
+}
