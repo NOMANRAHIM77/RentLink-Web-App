@@ -59,7 +59,7 @@ The Rent Member Portal provides tenants with easy access to rent-related informa
 ---
 
 ### 🔐 Rent Member Login Screen
-![Rent Member Login Screen](/rentMemeberLogin.PNG)
+![Rent Member Login Screen](/rentMemberLogin.PNG)
 
 ---
 
@@ -108,8 +108,8 @@ The main goal of **RentLink** is to:
 This project is created for **educational and demonstration purposes**.  
 Passwords and payment functionality are implemented for **testing only** and should be secured before production use.
 ****owner Login****
-name:noman
-password:77
+**name:noman**
+**password:77**
 Note:use small case letters
 
 ---
