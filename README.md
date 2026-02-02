@@ -48,30 +48,49 @@ The Rent Member Portal provides tenants with easy access to rent-related informa
 
 ---
 
-## 📸 Screenshots
-
-### 🔐 Login Pages
-![Owner Login](/ownerLogin.PNG)  
-![Rent Member Login](/rentMemeberLogin.PNG)
+### 📄 Default / Landing Page
+![Default Page](/defaultPage.PNG)
 
 ---
 
-### 📊 Dashboards
-![Owner Dashboard](/owner-Dashboard.PNG)  
-![Rent Member Dashboard](/RentMemebr-Dashboard.PNG)  
+### 🔐 Owner Login Screen
+![Owner Login Screen](/ownerLogin.PNG)
+
+---
+
+### 🔐 Rent Member Login Screen
+![Rent Member Login Screen](/rentMemeberLogin.PNG)
+
+---
+
+### 📊 Owner Dashboard Screen
+![Owner Dashboard](/owner-Dashboard.PNG)
+
+---
+
+### 📊 Rent Member Dashboard Screen
+![Rent Member Dashboard](/RentMemebr-Dashboard.PNG)
+
+---
+
+### 📊 Rent Member Dashboard (Alternative View)
 ![Rent Member Dashboard 2](/RentMemebr2-Dashboard.PNG)
 
 ---
 
-### 🏢 Owner Sections
-![Flats List](/owner-FlatsList.PNG)  
-![Rent Member List](/owner-RentMemberList.PNG)  
-![Complaint Section](/owner-ComplaintSection.PNG)
+### 🏢 Owner Flats List Screen
+![Owner Flats List](/owner-FlatsList.PNG)
 
 ---
 
-### 📄 Default Page
-![Default Page](/defaultPage.PNG)
+### 👥 Owner Rent Member List Screen
+![Owner Rent Member List](/owner-RentMemberList.PNG)
+
+---
+
+### 🛠️ Owner Complaint Management Screen
+![Owner Complaint Section](/owner-ComplaintSection.PNG)
+
 
 ---
 
