@@ -59,7 +59,7 @@ The Rent Member Portal provides tenants with easy access to rent-related informa
 ---
 
 ### 🔐 Rent Member Login Screen
-![Rent Member Login Screen](/rentMemberLogin.PNG)
+![Rent Member Login Screen](/rentMemebrLogin.PNG)
 
 ---
 
